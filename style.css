@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(245, 245, 245, 0.516);
+    background-image: url(img/calc.jpg);
+    background-size: cover;
+}
+h1{
+    background-color: rgba(240, 248, 255, 0.532);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 60px;
+    border: solid;
+    border-radius: 30px;
+    border-top-color: black;
+    border-left-color: red;
+    border-right-color: red;
+    border-bottom-color: black;
+}
+input{
+    background-color: rgb(202, 202, 202);
+    font-size: 30px;
+    border-bottom: 100px;
+    width: 230px;
+    border-radius: 10px;
+    border: 30%;
+    border-top-color: black;
+    border-left-color: red;
+    border-right-color: red;
+    border-bottom-color: black;
+}
+button{
+    color: blue;
+    background-color: rgba(128, 128, 128, 0.64);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 30%;
+    border-top-color: black;
+    border-left-color: red;
+    border-right-color: red;
+    border-bottom-color: black;
+}

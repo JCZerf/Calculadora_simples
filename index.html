@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    <br>
+    <input style="margin: auto;" type="number" name="boxUp" id="dadoUm" placeholder="Insira o valor" required>
+    <br>
+    <input type="number" name="boxDown" id="dadoDois" placeholder="Insira o valor" required>
+    <br><br>
+    <div> 
+        <button id="botaoSoma" onmousemove="ficaVermelho()" onmouseout="ficaPreto()" style="color: black;" onclick="somar()">Somar</button>
+        <button id="botaoSubtrai" onmousemove="ficaVermelho1()" onmouseout="ficaPreto1()" style="color: black;" onclick="subtrair()">Subtrair</button>
+        <button id="botaoMultiplica" onmousemove="ficaVermelho2()" onmouseout="ficaPreto2()" style="color: black;" onclick="multiplicar()">Multiplicar</button>
+        <button id="botaoDivide" onmousemove="ficaVermelho3()" onmouseout="ficaPreto3()" style="color: black;" onclick="dividir()">Dividir</button>
+    </div>
+    
+    <br><br>
+    
+    <input style="pointer-events: none; color: brown; " type="text" id="resultadoFacil" placeholder="Resultado aqui">
+    <br>
+    <br>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
